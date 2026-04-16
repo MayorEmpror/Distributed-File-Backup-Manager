@@ -1,7 +1,9 @@
-CC = gcc
+CXX = g++
 TARGET = DFBMS
-SRCS = main.c 
+SRCS = main.cpp
+
 all: $(SRCS)
-	$(CC) -o $(TARGET) $(SRCS)
+	$(CXX) -o $(TARGET) $(SRCS)
+
 clean:
 	rm -f $(TARGET)
