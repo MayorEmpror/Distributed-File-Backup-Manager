@@ -1,10 +1,6 @@
 #include <stdio.h>
 
-
-
-
-
 int main(){
-    printf("Hello World\n");
+    printf("Hell nigga\n");
     return 0;
 }
