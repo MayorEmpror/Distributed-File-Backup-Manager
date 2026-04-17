@@ -11,7 +11,7 @@ mkdir build
 cd build
 
 # Run CMake
-cmake ..
+cmake .. -DCMAKE_PREFIX_PATH=$(brew --prefix qt)
 
 # Build
 make

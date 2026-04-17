@@ -76,21 +76,24 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/DFBMS.dir/clean
+clean: CMakeFiles/DFBMS_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/DFBMS_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/DFBMS.dir
 
 # All Build rule for target.
-CMakeFiles/DFBMS.dir/all:
+CMakeFiles/DFBMS.dir/all: CMakeFiles/DFBMS_autogen.dir/all
+CMakeFiles/DFBMS.dir/all: CMakeFiles/DFBMS_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=1,2 "Built target DFBMS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target DFBMS"
 .PHONY : CMakeFiles/DFBMS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DFBMS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DFBMS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles 0
 .PHONY : CMakeFiles/DFBMS.dir/rule
@@ -100,15 +103,79 @@ DFBMS: CMakeFiles/DFBMS.dir/rule
 .PHONY : DFBMS
 
 # codegen rule for target.
-CMakeFiles/DFBMS.dir/codegen:
+CMakeFiles/DFBMS.dir/codegen: CMakeFiles/DFBMS_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=1,2 "Finished codegen for target DFBMS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target DFBMS"
 .PHONY : CMakeFiles/DFBMS.dir/codegen
 
 # clean rule for target.
 CMakeFiles/DFBMS.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/clean
 .PHONY : CMakeFiles/DFBMS.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/DFBMS_autogen_timestamp_deps.dir
+
+# All Build rule for target.
+CMakeFiles/DFBMS_autogen_timestamp_deps.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS_autogen_timestamp_deps.dir/build.make CMakeFiles/DFBMS_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS_autogen_timestamp_deps.dir/build.make CMakeFiles/DFBMS_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num= "Built target DFBMS_autogen_timestamp_deps"
+.PHONY : CMakeFiles/DFBMS_autogen_timestamp_deps.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/DFBMS_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DFBMS_autogen_timestamp_deps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles 0
+.PHONY : CMakeFiles/DFBMS_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+DFBMS_autogen_timestamp_deps: CMakeFiles/DFBMS_autogen_timestamp_deps.dir/rule
+.PHONY : DFBMS_autogen_timestamp_deps
+
+# codegen rule for target.
+CMakeFiles/DFBMS_autogen_timestamp_deps.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS_autogen_timestamp_deps.dir/build.make CMakeFiles/DFBMS_autogen_timestamp_deps.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num= "Finished codegen for target DFBMS_autogen_timestamp_deps"
+.PHONY : CMakeFiles/DFBMS_autogen_timestamp_deps.dir/codegen
+
+# clean rule for target.
+CMakeFiles/DFBMS_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS_autogen_timestamp_deps.dir/build.make CMakeFiles/DFBMS_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/DFBMS_autogen_timestamp_deps.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/DFBMS_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/DFBMS_autogen.dir/all: CMakeFiles/DFBMS_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS_autogen.dir/build.make CMakeFiles/DFBMS_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS_autogen.dir/build.make CMakeFiles/DFBMS_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=8 "Built target DFBMS_autogen"
+.PHONY : CMakeFiles/DFBMS_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/DFBMS_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DFBMS_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles 0
+.PHONY : CMakeFiles/DFBMS_autogen.dir/rule
+
+# Convenience name for target.
+DFBMS_autogen: CMakeFiles/DFBMS_autogen.dir/rule
+.PHONY : DFBMS_autogen
+
+# codegen rule for target.
+CMakeFiles/DFBMS_autogen.dir/codegen: CMakeFiles/DFBMS_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS_autogen.dir/build.make CMakeFiles/DFBMS_autogen.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=8 "Finished codegen for target DFBMS_autogen"
+.PHONY : CMakeFiles/DFBMS_autogen.dir/codegen
+
+# clean rule for target.
+CMakeFiles/DFBMS_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS_autogen.dir/build.make CMakeFiles/DFBMS_autogen.dir/clean
+.PHONY : CMakeFiles/DFBMS_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,6 +1,12 @@
-#include <stdio.h>
+#include <QApplication>
+#include "./src/UI/MainWindow.h"
 
-int main(){
-    printf("Hell nigga\n");
-    return 0;
+int main(int argc, char *argv[]) {
+    QApplication app(argc, argv);
+
+    MainWindow window;
+    window.resize(600, 400);
+    window.show();
+
+    return app.exec();
 }

@@ -129,6 +129,56 @@ DFBMS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/build
 .PHONY : DFBMS/fast
 
+#=============================================================================
+# Target rules for targets named DFBMS_autogen_timestamp_deps
+
+# Build rule for target.
+DFBMS_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DFBMS_autogen_timestamp_deps
+.PHONY : DFBMS_autogen_timestamp_deps
+
+# fast build rule for target.
+DFBMS_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS_autogen_timestamp_deps.dir/build.make CMakeFiles/DFBMS_autogen_timestamp_deps.dir/build
+.PHONY : DFBMS_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named DFBMS_autogen
+
+# Build rule for target.
+DFBMS_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DFBMS_autogen
+.PHONY : DFBMS_autogen
+
+# fast build rule for target.
+DFBMS_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS_autogen.dir/build.make CMakeFiles/DFBMS_autogen.dir/build
+.PHONY : DFBMS_autogen/fast
+
+DFBMS_autogen/mocs_compilation.o: DFBMS_autogen/mocs_compilation.cpp.o
+.PHONY : DFBMS_autogen/mocs_compilation.o
+
+# target to build an object file
+DFBMS_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/DFBMS_autogen/mocs_compilation.cpp.o
+.PHONY : DFBMS_autogen/mocs_compilation.cpp.o
+
+DFBMS_autogen/mocs_compilation.i: DFBMS_autogen/mocs_compilation.cpp.i
+.PHONY : DFBMS_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+DFBMS_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/DFBMS_autogen/mocs_compilation.cpp.i
+.PHONY : DFBMS_autogen/mocs_compilation.cpp.i
+
+DFBMS_autogen/mocs_compilation.s: DFBMS_autogen/mocs_compilation.cpp.s
+.PHONY : DFBMS_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+DFBMS_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/DFBMS_autogen/mocs_compilation.cpp.s
+.PHONY : DFBMS_autogen/mocs_compilation.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -153,6 +203,78 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Client/Client.o: src/Client/Client.cpp.o
+.PHONY : src/Client/Client.o
+
+# target to build an object file
+src/Client/Client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/Client/Client.cpp.o
+.PHONY : src/Client/Client.cpp.o
+
+src/Client/Client.i: src/Client/Client.cpp.i
+.PHONY : src/Client/Client.i
+
+# target to preprocess a source file
+src/Client/Client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/Client/Client.cpp.i
+.PHONY : src/Client/Client.cpp.i
+
+src/Client/Client.s: src/Client/Client.cpp.s
+.PHONY : src/Client/Client.s
+
+# target to generate assembly for a file
+src/Client/Client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/Client/Client.cpp.s
+.PHONY : src/Client/Client.cpp.s
+
+src/Client/ClientSimulator.o: src/Client/ClientSimulator.cpp.o
+.PHONY : src/Client/ClientSimulator.o
+
+# target to build an object file
+src/Client/ClientSimulator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.o
+.PHONY : src/Client/ClientSimulator.cpp.o
+
+src/Client/ClientSimulator.i: src/Client/ClientSimulator.cpp.i
+.PHONY : src/Client/ClientSimulator.i
+
+# target to preprocess a source file
+src/Client/ClientSimulator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.i
+.PHONY : src/Client/ClientSimulator.cpp.i
+
+src/Client/ClientSimulator.s: src/Client/ClientSimulator.cpp.s
+.PHONY : src/Client/ClientSimulator.s
+
+# target to generate assembly for a file
+src/Client/ClientSimulator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.s
+.PHONY : src/Client/ClientSimulator.cpp.s
+
+src/UI/MainWindow.o: src/UI/MainWindow.cpp.o
+.PHONY : src/UI/MainWindow.o
+
+# target to build an object file
+src/UI/MainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o
+.PHONY : src/UI/MainWindow.cpp.o
+
+src/UI/MainWindow.i: src/UI/MainWindow.cpp.i
+.PHONY : src/UI/MainWindow.i
+
+# target to preprocess a source file
+src/UI/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.i
+.PHONY : src/UI/MainWindow.cpp.i
+
+src/UI/MainWindow.s: src/UI/MainWindow.cpp.s
+.PHONY : src/UI/MainWindow.s
+
+# target to generate assembly for a file
+src/UI/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.s
+.PHONY : src/UI/MainWindow.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -161,10 +283,24 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... DFBMS_autogen"
+	@echo "... DFBMS_autogen_timestamp_deps"
 	@echo "... DFBMS"
+	@echo "... DFBMS_autogen/mocs_compilation.o"
+	@echo "... DFBMS_autogen/mocs_compilation.i"
+	@echo "... DFBMS_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Client/Client.o"
+	@echo "... src/Client/Client.i"
+	@echo "... src/Client/Client.s"
+	@echo "... src/Client/ClientSimulator.o"
+	@echo "... src/Client/ClientSimulator.i"
+	@echo "... src/Client/ClientSimulator.s"
+	@echo "... src/UI/MainWindow.o"
+	@echo "... src/UI/MainWindow.i"
+	@echo "... src/UI/MainWindow.s"
 .PHONY : help
 
 

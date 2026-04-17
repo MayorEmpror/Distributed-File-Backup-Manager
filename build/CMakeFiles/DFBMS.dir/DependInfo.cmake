@@ -8,7 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "DFBMS_autogen/timestamp" "custom" "DFBMS_autogen/deps"
+  "/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/DFBMS_autogen/mocs_compilation.cpp" "CMakeFiles/DFBMS.dir/DFBMS_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/DFBMS.dir/DFBMS_autogen/mocs_compilation.cpp.o.d"
   "/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/main.cpp" "CMakeFiles/DFBMS.dir/main.cpp.o" "gcc" "CMakeFiles/DFBMS.dir/main.cpp.o.d"
+  "/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/Client.cpp" "CMakeFiles/DFBMS.dir/src/Client/Client.cpp.o" "gcc" "CMakeFiles/DFBMS.dir/src/Client/Client.cpp.o.d"
+  "/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/ClientSimulator.cpp" "CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.o" "gcc" "CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.o.d"
+  "/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/MainWindow.cpp" "CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o" "gcc" "CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
