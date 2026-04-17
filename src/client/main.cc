@@ -1,17 +1,18 @@
-//this file is to be deleteed this just gives the usecase :
 #include "ClientSimulator.h"
 #include <iostream>
+#include <chrono>
+#include <thread>
 
-void handleRequest(const BackupRequest& req) {
+void dispatchRequest(const BackupRequest& req) {
     std::cout << "[DISPATCH] Client " << req.clientId
               << " -> " << req.fileName
-              << " (" << req.fileSize << " bytes)\n";
+              << " (" << req.fileSize << " bytes)" << std::endl;
 }
 
 int main() {
     ClientSimulator simulator;
 
-    simulator.setDispatcher(handleRequest);
+    simulator.setDispatcher(dispatchRequest);
 
     simulator.addClient(new Client(1, "Alpha"));
     simulator.addClient(new Client(2, "Beta"));
