@@ -2,15 +2,21 @@
 #include <chrono>
 #include <cstdlib>
 
-ClientSimulator::ClientSimulator() : running(false) {}
+ClientSimulator::ClientSimulator() {
+    clientCount = 0;
+    running = false;
+}
 
 void ClientSimulator::setDispatcher(std::function<void(const BackupRequest&)> func) {
     dispatcher = func;
 }
 
 void ClientSimulator::addClient(Client* client) {
+    if (clientCount >= MAX_CLIENTS)
+        return;
+
     client->setRequestHandler(dispatcher);
-    clients.push_back(client);
+    clients[clientCount++] = client;
 }
 
 void ClientSimulator::runClient(Client* client) {
@@ -26,8 +32,9 @@ void ClientSimulator::runClient(Client* client) {
 void ClientSimulator::start() {
     running = true;
 
-    for (size_t i = 0; i < clients.size(); i++) {
-        threads.push_back(std::thread(&ClientSimulator::runClient, this, clients[i]));
+    int i;
+    for (i = 0; i < clientCount; i++) {
+        threads[i] = std::thread(&ClientSimulator::runClient, this, clients[i]);
     }
 }
 
@@ -36,8 +43,10 @@ void ClientSimulator::stop() {
 }
 
 void ClientSimulator::wait() {
-    for (size_t i = 0; i < threads.size(); i++) {
-        if (threads[i].joinable())
+    int i;
+    for (i = 0; i < clientCount; i++) {
+        if (threads[i].joinable()) {
             threads[i].join();
+        }
     }
 }

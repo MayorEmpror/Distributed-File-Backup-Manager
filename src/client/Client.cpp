@@ -13,13 +13,12 @@ int Client::getId() const {
 }
 
 void Client::generateRequest() {
-    // simulate realistic request
     std::string file = "file_" + std::to_string(rand() % 1000) + ".dat";
-    size_t size = 100 + rand() % 10000;
+    size_t size = 100 + rand() % 5000;
 
     BackupRequest req(clientId, file, size);
 
     if (requestHandler) {
-        requestHandler(req);  // send into system
+        requestHandler(req);
     }
 }

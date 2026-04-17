@@ -1,4 +1,3 @@
-//interface
 #ifndef ICLIENT_H
 #define ICLIENT_H
 

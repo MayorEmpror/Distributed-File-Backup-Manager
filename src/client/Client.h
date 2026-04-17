@@ -2,15 +2,14 @@
 #define CLIENT_H
 
 #include "IClient.h"
-#include <functional>
 #include <string>
+#include <functional>
 
 class Client : public IClient {
 private:
     int clientId;
     std::string name;
 
-    // callback to send request to system
     std::function<void(const BackupRequest&)> requestHandler;
 
 public:
@@ -18,8 +17,8 @@ public:
 
     void setRequestHandler(std::function<void(const BackupRequest&)> handler);
 
-    int getId() const override;
-    void generateRequest() override;
+    int getId() const;
+    void generateRequest();
 };
 
 #endif

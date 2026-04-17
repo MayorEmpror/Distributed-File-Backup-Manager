@@ -2,19 +2,20 @@
 #define CLIENT_SIMULATOR_H
 
 #include "Client.h"
-#include <vector>
 #include <thread>
 #include <atomic>
 #include <functional>
 
+#define MAX_CLIENTS 50
+
 class ClientSimulator {
 private:
-    std::vector<Client*> clients;
-    std::vector<std::thread> threads;
+    Client* clients[MAX_CLIENTS];
+    std::thread threads[MAX_CLIENTS];
 
+    int clientCount;
     std::atomic<bool> running;
 
-    // central dispatch callback (to job queue later)
     std::function<void(const BackupRequest&)> dispatcher;
 
     void runClient(Client* client);
