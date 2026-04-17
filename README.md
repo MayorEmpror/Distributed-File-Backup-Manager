@@ -41,6 +41,9 @@ This project focuses on **concurrency control, synchronization, and I/O manageme
 - Prepare for viva on concurrency and synchronization concepts  
 
 ---
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/699b4e03-11dd-4691-b0e1-dc2aca21d9ac" width="600"/>
+</p>
 
 ## 🏗 System Architecture
 
