@@ -966,6 +966,9 @@ CMakeFiles/DFBMS.dir/main.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qalloc.h \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qguiapplication_platform.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/QFont \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qfont.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qendian.h \
   /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/./src/UI/MainWindow.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qmainwindow.h \
@@ -975,8 +978,6 @@ CMakeFiles/DFBMS.dir/main.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qicon.h \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qpalette.h \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qbrush.h \
-  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qfont.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qendian.h \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qfontmetrics.h \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qfontinfo.h \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qfontvariableaxis.h \

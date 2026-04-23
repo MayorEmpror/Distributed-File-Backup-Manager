@@ -1,10 +1,14 @@
 #include "LineChartWidget.h"
 #include <QPainter>
 #include <QPaintEvent>
+#include <QSizePolicy>
+#include <QFont>
 
 LineChartWidget::LineChartWidget(QWidget* parent)
-    : QWidget(parent), maxPoints_(80), title_("Trend"), lineColor_(QColor("#22D3EE")) {
-    setMinimumHeight(160);
+    : QWidget(parent), maxPoints_(80), title_("Trend"), lineColor_(QColor("#c9a227")) {
+    setMinimumHeight(140);
+    setMinimumWidth(120);
+    setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
 }
 
 void LineChartWidget::addPoint(int value) {
@@ -35,24 +39,29 @@ void LineChartWidget::setLineColor(const QColor& color) {
 void LineChartWidget::paintEvent(QPaintEvent* event) {
     Q_UNUSED(event);
     QPainter p(this);
-    p.fillRect(rect(), QColor("#111827"));
+    const QColor panel("#1e2229");
+    const QColor grid("#3d424d");
+    const QColor label("#8b929a");
+    p.fillRect(rect(), panel);
     p.setRenderHint(QPainter::Antialiasing, true);
 
-    const int left = 30;
-    const int right = width() - 10;
-    const int top = 10;
-    const int bottom = height() - 20;
+    const int left = 34;
+    const int right = width() - 12;
+    const int top = 14;
+    const int bottom = height() - 22;
 
-    p.setPen(QPen(QColor("#374151"), 1));
+    p.setPen(QPen(grid, 1));
     for (int i = 0; i <= 4; ++i) {
         int y = top + ((bottom - top) * i) / 4;
         p.drawLine(left, y, right, y);
     }
 
-    p.setPen(QPen(QColor("#9CA3AF"), 1));
-    p.drawText(5, top + 4, "100");
-    p.drawText(12, bottom + 4, "0");
-    p.drawText(left, top + 4, title_);
+    p.setPen(QPen(label, 1));
+    p.setFont(QFont("Consolas", 8));
+    p.drawText(6, top + 10, "100");
+    p.drawText(10, bottom + 4, "0");
+    p.setFont(QFont("Segoe UI", 9, QFont::DemiBold));
+    p.drawText(left, top + 10, title_);
 
     if (values_.size() < 2) {
         return;

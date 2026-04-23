@@ -1000,4 +1000,6 @@ CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcoreapplication_platform.h \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qinputmethod.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qlocale.h \
-  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qguiapplication_platform.h
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qguiapplication_platform.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QSizePolicy \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/QFont

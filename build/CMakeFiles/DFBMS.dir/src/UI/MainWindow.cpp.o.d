@@ -1053,11 +1053,18 @@ CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qlayoutitem.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QHBoxLayout \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QGridLayout \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QFrame \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QMetaObject \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QHeaderView \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qheaderview.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QDateTime \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qdatetime.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcalendar.h
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcalendar.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QSplitter \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qsplitter.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QScrollArea \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qscrollarea.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QSizePolicy \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QAbstractItemView \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/QBrush \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/QFont
