@@ -203,53 +203,29 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/Client/Client.o: src/Client/Client.cpp.o
-.PHONY : src/Client/Client.o
+src/UI/LineChartWidget.o: src/UI/LineChartWidget.cpp.o
+.PHONY : src/UI/LineChartWidget.o
 
 # target to build an object file
-src/Client/Client.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/Client/Client.cpp.o
-.PHONY : src/Client/Client.cpp.o
+src/UI/LineChartWidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.o
+.PHONY : src/UI/LineChartWidget.cpp.o
 
-src/Client/Client.i: src/Client/Client.cpp.i
-.PHONY : src/Client/Client.i
-
-# target to preprocess a source file
-src/Client/Client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/Client/Client.cpp.i
-.PHONY : src/Client/Client.cpp.i
-
-src/Client/Client.s: src/Client/Client.cpp.s
-.PHONY : src/Client/Client.s
-
-# target to generate assembly for a file
-src/Client/Client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/Client/Client.cpp.s
-.PHONY : src/Client/Client.cpp.s
-
-src/Client/ClientSimulator.o: src/Client/ClientSimulator.cpp.o
-.PHONY : src/Client/ClientSimulator.o
-
-# target to build an object file
-src/Client/ClientSimulator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.o
-.PHONY : src/Client/ClientSimulator.cpp.o
-
-src/Client/ClientSimulator.i: src/Client/ClientSimulator.cpp.i
-.PHONY : src/Client/ClientSimulator.i
+src/UI/LineChartWidget.i: src/UI/LineChartWidget.cpp.i
+.PHONY : src/UI/LineChartWidget.i
 
 # target to preprocess a source file
-src/Client/ClientSimulator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.i
-.PHONY : src/Client/ClientSimulator.cpp.i
+src/UI/LineChartWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.i
+.PHONY : src/UI/LineChartWidget.cpp.i
 
-src/Client/ClientSimulator.s: src/Client/ClientSimulator.cpp.s
-.PHONY : src/Client/ClientSimulator.s
+src/UI/LineChartWidget.s: src/UI/LineChartWidget.cpp.s
+.PHONY : src/UI/LineChartWidget.s
 
 # target to generate assembly for a file
-src/Client/ClientSimulator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.s
-.PHONY : src/Client/ClientSimulator.cpp.s
+src/UI/LineChartWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.s
+.PHONY : src/UI/LineChartWidget.cpp.s
 
 src/UI/MainWindow.o: src/UI/MainWindow.cpp.o
 .PHONY : src/UI/MainWindow.o
@@ -275,6 +251,78 @@ src/UI/MainWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.s
 .PHONY : src/UI/MainWindow.cpp.s
 
+src/client/Client.o: src/client/Client.cpp.o
+.PHONY : src/client/Client.o
+
+# target to build an object file
+src/client/Client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/client/Client.cpp.o
+.PHONY : src/client/Client.cpp.o
+
+src/client/Client.i: src/client/Client.cpp.i
+.PHONY : src/client/Client.i
+
+# target to preprocess a source file
+src/client/Client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/client/Client.cpp.i
+.PHONY : src/client/Client.cpp.i
+
+src/client/Client.s: src/client/Client.cpp.s
+.PHONY : src/client/Client.s
+
+# target to generate assembly for a file
+src/client/Client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/client/Client.cpp.s
+.PHONY : src/client/Client.cpp.s
+
+src/client/ClientSimulator.o: src/client/ClientSimulator.cpp.o
+.PHONY : src/client/ClientSimulator.o
+
+# target to build an object file
+src/client/ClientSimulator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.o
+.PHONY : src/client/ClientSimulator.cpp.o
+
+src/client/ClientSimulator.i: src/client/ClientSimulator.cpp.i
+.PHONY : src/client/ClientSimulator.i
+
+# target to preprocess a source file
+src/client/ClientSimulator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.i
+.PHONY : src/client/ClientSimulator.cpp.i
+
+src/client/ClientSimulator.s: src/client/ClientSimulator.cpp.s
+.PHONY : src/client/ClientSimulator.s
+
+# target to generate assembly for a file
+src/client/ClientSimulator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.s
+.PHONY : src/client/ClientSimulator.cpp.s
+
+src/core/backupmanager.o: src/core/backupmanager.cpp.o
+.PHONY : src/core/backupmanager.o
+
+# target to build an object file
+src/core/backupmanager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.o
+.PHONY : src/core/backupmanager.cpp.o
+
+src/core/backupmanager.i: src/core/backupmanager.cpp.i
+.PHONY : src/core/backupmanager.i
+
+# target to preprocess a source file
+src/core/backupmanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.i
+.PHONY : src/core/backupmanager.cpp.i
+
+src/core/backupmanager.s: src/core/backupmanager.cpp.s
+.PHONY : src/core/backupmanager.s
+
+# target to generate assembly for a file
+src/core/backupmanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DFBMS.dir/build.make CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.s
+.PHONY : src/core/backupmanager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -292,15 +340,21 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/Client/Client.o"
-	@echo "... src/Client/Client.i"
-	@echo "... src/Client/Client.s"
-	@echo "... src/Client/ClientSimulator.o"
-	@echo "... src/Client/ClientSimulator.i"
-	@echo "... src/Client/ClientSimulator.s"
+	@echo "... src/UI/LineChartWidget.o"
+	@echo "... src/UI/LineChartWidget.i"
+	@echo "... src/UI/LineChartWidget.s"
 	@echo "... src/UI/MainWindow.o"
 	@echo "... src/UI/MainWindow.i"
 	@echo "... src/UI/MainWindow.s"
+	@echo "... src/client/Client.o"
+	@echo "... src/client/Client.i"
+	@echo "... src/client/Client.s"
+	@echo "... src/client/ClientSimulator.o"
+	@echo "... src/client/ClientSimulator.i"
+	@echo "... src/client/ClientSimulator.s"
+	@echo "... src/core/backupmanager.o"
+	@echo "... src/core/backupmanager.i"
+	@echo "... src/core/backupmanager.s"
 .PHONY : help
 
 

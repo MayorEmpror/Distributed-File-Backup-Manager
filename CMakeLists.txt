@@ -14,14 +14,22 @@ find_package(Threads REQUIRED)
 
 set(SOURCES
     main.cpp
-    src/Client/Client.cpp
-    src/Client/ClientSimulator.cpp
+    src/client/Client.cpp
+    src/client/ClientSimulator.cpp
+    src/core/backupmanager.cpp
+    src/UI/LineChartWidget.cpp
     src/UI/MainWindow.cpp
 )
 
 set(HEADERS
-    src/Client/Client.h
-    src/Client/ClientSimulator.h
+    src/client/Client.h
+    src/client/ClientSimulator.h
+    src/client/IClient.h
+    src/client/BackupRequest.h
+    src/core/backupmanager.h
+    src/core/Semaphore.h
+    src/UI/LineChartWidget.h
+    src/UI/MainWindow.h
 )
 
 add_executable(DFBMS ${SOURCES} ${HEADERS})

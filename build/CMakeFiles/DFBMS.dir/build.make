@@ -107,38 +107,66 @@ CMakeFiles/DFBMS.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DFBMS.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/main.cpp -o CMakeFiles/DFBMS.dir/main.cpp.s
 
-CMakeFiles/DFBMS.dir/src/Client/Client.cpp.o: CMakeFiles/DFBMS.dir/flags.make
-CMakeFiles/DFBMS.dir/src/Client/Client.cpp.o: /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/Client.cpp
-CMakeFiles/DFBMS.dir/src/Client/Client.cpp.o: CMakeFiles/DFBMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DFBMS.dir/src/Client/Client.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DFBMS.dir/src/Client/Client.cpp.o -MF CMakeFiles/DFBMS.dir/src/Client/Client.cpp.o.d -o CMakeFiles/DFBMS.dir/src/Client/Client.cpp.o -c /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/Client.cpp
+CMakeFiles/DFBMS.dir/src/client/Client.cpp.o: CMakeFiles/DFBMS.dir/flags.make
+CMakeFiles/DFBMS.dir/src/client/Client.cpp.o: /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/Client.cpp
+CMakeFiles/DFBMS.dir/src/client/Client.cpp.o: CMakeFiles/DFBMS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DFBMS.dir/src/client/Client.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DFBMS.dir/src/client/Client.cpp.o -MF CMakeFiles/DFBMS.dir/src/client/Client.cpp.o.d -o CMakeFiles/DFBMS.dir/src/client/Client.cpp.o -c /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/Client.cpp
 
-CMakeFiles/DFBMS.dir/src/Client/Client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DFBMS.dir/src/Client/Client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/Client.cpp > CMakeFiles/DFBMS.dir/src/Client/Client.cpp.i
+CMakeFiles/DFBMS.dir/src/client/Client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DFBMS.dir/src/client/Client.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/Client.cpp > CMakeFiles/DFBMS.dir/src/client/Client.cpp.i
 
-CMakeFiles/DFBMS.dir/src/Client/Client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DFBMS.dir/src/Client/Client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/Client.cpp -o CMakeFiles/DFBMS.dir/src/Client/Client.cpp.s
+CMakeFiles/DFBMS.dir/src/client/Client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DFBMS.dir/src/client/Client.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/Client.cpp -o CMakeFiles/DFBMS.dir/src/client/Client.cpp.s
 
-CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.o: CMakeFiles/DFBMS.dir/flags.make
-CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.o: /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/ClientSimulator.cpp
-CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.o: CMakeFiles/DFBMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.o -MF CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.o.d -o CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.o -c /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/ClientSimulator.cpp
+CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.o: CMakeFiles/DFBMS.dir/flags.make
+CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.o: /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/ClientSimulator.cpp
+CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.o: CMakeFiles/DFBMS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.o -MF CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.o.d -o CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.o -c /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/ClientSimulator.cpp
 
-CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/ClientSimulator.cpp > CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.i
+CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/ClientSimulator.cpp > CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.i
 
-CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/ClientSimulator.cpp -o CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.s
+CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/ClientSimulator.cpp -o CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.s
+
+CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.o: CMakeFiles/DFBMS.dir/flags.make
+CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.o: /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/core/backupmanager.cpp
+CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.o: CMakeFiles/DFBMS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.o -MF CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.o.d -o CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.o -c /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/core/backupmanager.cpp
+
+CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/core/backupmanager.cpp > CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.i
+
+CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/core/backupmanager.cpp -o CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.s
+
+CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.o: CMakeFiles/DFBMS.dir/flags.make
+CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.o: /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/LineChartWidget.cpp
+CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.o: CMakeFiles/DFBMS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.o -MF CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.o.d -o CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.o -c /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/LineChartWidget.cpp
+
+CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/LineChartWidget.cpp > CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.i
+
+CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/LineChartWidget.cpp -o CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.s
 
 CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o: CMakeFiles/DFBMS.dir/flags.make
 CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o: /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/MainWindow.cpp
 CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o: CMakeFiles/DFBMS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o -MF CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o.d -o CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o -c /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/MainWindow.cpp
 
 CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.i: cmake_force
@@ -153,8 +181,10 @@ CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.s: cmake_force
 DFBMS_OBJECTS = \
 "CMakeFiles/DFBMS.dir/DFBMS_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/DFBMS.dir/main.cpp.o" \
-"CMakeFiles/DFBMS.dir/src/Client/Client.cpp.o" \
-"CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.o" \
+"CMakeFiles/DFBMS.dir/src/client/Client.cpp.o" \
+"CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.o" \
+"CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.o" \
+"CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.o" \
 "CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o"
 
 # External object files for target DFBMS
@@ -162,15 +192,17 @@ DFBMS_EXTERNAL_OBJECTS =
 
 DFBMS: CMakeFiles/DFBMS.dir/DFBMS_autogen/mocs_compilation.cpp.o
 DFBMS: CMakeFiles/DFBMS.dir/main.cpp.o
-DFBMS: CMakeFiles/DFBMS.dir/src/Client/Client.cpp.o
-DFBMS: CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.o
+DFBMS: CMakeFiles/DFBMS.dir/src/client/Client.cpp.o
+DFBMS: CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.o
+DFBMS: CMakeFiles/DFBMS.dir/src/core/backupmanager.cpp.o
+DFBMS: CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.o
 DFBMS: CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o
 DFBMS: CMakeFiles/DFBMS.dir/build.make
 DFBMS: /opt/homebrew/opt/qt/lib/QtWidgets.framework/Versions/A/QtWidgets
 DFBMS: /opt/homebrew/opt/qt/lib/QtGui.framework/Versions/A/QtGui
 DFBMS: /opt/homebrew/opt/qt/lib/QtCore.framework/Versions/A/QtCore
 DFBMS: CMakeFiles/DFBMS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable DFBMS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable DFBMS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DFBMS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

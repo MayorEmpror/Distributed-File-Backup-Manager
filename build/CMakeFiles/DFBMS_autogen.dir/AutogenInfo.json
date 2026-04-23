@@ -557,21 +557,51 @@
 	"HEADERS" : 
 	[
 		[
-			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/Client.h",
+			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/LineChartWidget.h",
 			"MU",
-			"2MJGWJB4P3/moc_Client.cpp",
-			null
-		],
-		[
-			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/ClientSimulator.h",
-			"MU",
-			"2MJGWJB4P3/moc_ClientSimulator.cpp",
+			"WAYUIA5GRM/moc_LineChartWidget.cpp",
 			null
 		],
 		[
 			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/MainWindow.h",
 			"MU",
 			"WAYUIA5GRM/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/BackupRequest.h",
+			"MU",
+			"2MJGWJB4P3/moc_BackupRequest.cpp",
+			null
+		],
+		[
+			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/Client.h",
+			"MU",
+			"2MJGWJB4P3/moc_Client.cpp",
+			null
+		],
+		[
+			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/ClientSimulator.h",
+			"MU",
+			"2MJGWJB4P3/moc_ClientSimulator.cpp",
+			null
+		],
+		[
+			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/IClient.h",
+			"MU",
+			"2MJGWJB4P3/moc_IClient.cpp",
+			null
+		],
+		[
+			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/core/Semaphore.h",
+			"MU",
+			"PRMOGMWJPH/moc_Semaphore.cpp",
+			null
+		],
+		[
+			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/core/backupmanager.h",
+			"MU",
+			"PRMOGMWJPH/moc_backupmanager.cpp",
 			null
 		]
 	],
@@ -641,17 +671,27 @@
 			null
 		],
 		[
-			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/Client.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/ClientSimulator.cpp",
+			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/LineChartWidget.cpp",
 			"MU",
 			null
 		],
 		[
 			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/Client.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/ClientSimulator.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/core/backupmanager.cpp",
 			"MU",
 			null
 		]

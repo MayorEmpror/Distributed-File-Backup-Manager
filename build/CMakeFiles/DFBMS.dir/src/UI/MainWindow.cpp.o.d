@@ -983,9 +983,81 @@ CMakeFiles/DFBMS.dir/src/UI/MainWindow.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qpen.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QProgressBar \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qprogressbar.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QDial \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qdial.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qabstractslider.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QLabel \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qlabel.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qpicture.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qiodevice.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QLineEdit \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qlineedit.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QComboBox \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qcombobox.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qstyleoption.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qlocale.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qvalidator.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qregularexpression.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qslider.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qstyle.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qtabbar.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qrubberband.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qabstractitemmodel.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QTableWidget \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qtablewidget.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qtableview.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qabstractitemview.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qitemselectionmodel.h \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/../client/ClientSimulator.h \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/../client/Client.h \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/../client/IClient.h \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/../client/BackupRequest.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/put_character_sequence.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/../core/backupmanager.h \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/../core/../client/BackupRequest.h \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/../core/Semaphore.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/condition_variable \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_callback.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_state.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/LineChartWidget.h \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QWidget \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/QColor \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qlayout.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qlayoutitem.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qgridlayout.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QWidget
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QHBoxLayout \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QGridLayout \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QFrame \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QMetaObject \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QHeaderView \
+  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qheaderview.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QDateTime \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qdatetime.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcalendar.h

@@ -15,6 +15,8 @@ private:
 
     int clientCount;
     std::atomic<bool> running;
+    std::atomic<int> minDelayMs;
+    std::atomic<int> maxDelayMs;
 
     std::function<void(const BackupRequest&)> dispatcher;
 
@@ -30,6 +32,7 @@ public:
     void start();
     void stop();
     void wait();
+    void setPacing(int minMs, int maxMs);
 };
 
 #endif

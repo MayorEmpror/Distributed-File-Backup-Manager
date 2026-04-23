@@ -5,6 +5,8 @@
 ClientSimulator::ClientSimulator() {
     clientCount = 0;
     running = false;
+    minDelayMs = 200;
+    maxDelayMs = 800;
 }
 
 void ClientSimulator::setDispatcher(std::function<void(const BackupRequest&)> func) {
@@ -22,10 +24,14 @@ void ClientSimulator::addClient(Client* client) {
 void ClientSimulator::runClient(Client* client) {
     while (running) {
         client->generateRequest();
-
-        std::this_thread::sleep_for(
-            std::chrono::milliseconds(200 + rand() % 800)
-        );
+        int minMs = minDelayMs.load();
+        int maxMs = maxDelayMs.load();
+        if (maxMs < minMs) {
+            maxMs = minMs;
+        }
+        int span = maxMs - minMs;
+        int delay = minMs + (span > 0 ? rand() % (span + 1) : 0);
+        std::this_thread::sleep_for(std::chrono::milliseconds(delay));
     }
 }
 
@@ -49,4 +55,15 @@ void ClientSimulator::wait() {
             threads[i].join();
         }
     }
+}
+
+void ClientSimulator::setPacing(int minMs, int maxMs) {
+    if (minMs < 10) {
+        minMs = 10;
+    }
+    if (maxMs < minMs) {
+        maxMs = minMs;
+    }
+    minDelayMs = minMs;
+    maxDelayMs = maxMs;
 }

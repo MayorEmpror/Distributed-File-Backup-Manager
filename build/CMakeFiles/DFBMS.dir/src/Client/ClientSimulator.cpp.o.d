@@ -1,9 +1,9 @@
-CMakeFiles/DFBMS.dir/src/Client/ClientSimulator.cpp.o: \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/ClientSimulator.cpp \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/ClientSimulator.h \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/Client.h \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/IClient.h \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/Client/BackupRequest.h \
+CMakeFiles/DFBMS.dir/src/client/ClientSimulator.cpp.o: \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/ClientSimulator.cpp \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/ClientSimulator.h \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/Client.h \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/IClient.h \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/client/BackupRequest.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \

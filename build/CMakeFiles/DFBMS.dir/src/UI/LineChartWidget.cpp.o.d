@@ -1,7 +1,6 @@
-CMakeFiles/DFBMS.dir/DFBMS_autogen/mocs_compilation.cpp.o: \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/DFBMS_autogen/mocs_compilation.cpp \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/DFBMS_autogen/WAYUIA5GRM/moc_LineChartWidget.cpp \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/DFBMS_autogen/WAYUIA5GRM/../../../src/UI/LineChartWidget.h \
+CMakeFiles/DFBMS.dir/src/UI/LineChartWidget.cpp.o: \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/LineChartWidget.cpp \
+  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/src/UI/LineChartWidget.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qwidget.h \
   /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -969,86 +968,36 @@ CMakeFiles/DFBMS.dir/DFBMS_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qbitmap.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QString \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/QColor \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtmochelpers.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qtmocconstants.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/q20algorithm.h \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/DFBMS_autogen/WAYUIA5GRM/moc_MainWindow.cpp \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/DFBMS_autogen/WAYUIA5GRM/../../../src/UI/MainWindow.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QMainWindow \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qmainwindow.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qtabwidget.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QPushButton \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qabstractbutton.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QTextEdit \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qtextedit.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qframe.h \
-  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qtextdocument.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qurl.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/QPainter \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qpainter.h \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qtextoption.h \
-  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qtextcursor.h \
-  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qtextformat.h \
   /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qpen.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QProgressBar \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qprogressbar.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QDial \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qdial.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qabstractslider.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QLabel \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qlabel.h \
-  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qpicture.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/QPaintEvent \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qevent.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcoreevent.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qbasictimer.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qabstracteventdispatcher.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qeventloop.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qdeadlinetimer.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qiodevice.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QLineEdit \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qlineedit.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QComboBox \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qcombobox.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qstyleoption.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qurl.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qeventpoint.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qvector2d.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qvectornd.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qpointingdevice.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qinputdevice.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qscreen.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QList \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QObject \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QRect \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QSize \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/QSizeF \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/QTransform \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qnativeinterface.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qscreen_platform.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qguiapplication.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcoreapplication.h \
+  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qcoreapplication_platform.h \
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qinputmethod.h \
   /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qlocale.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
-  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qvalidator.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qregularexpression.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qslider.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qstyle.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qtabbar.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qrubberband.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qabstractitemmodel.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/QTableWidget \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qtablewidget.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qtableview.h \
-  /opt/homebrew/opt/qt/lib/QtWidgets.framework/Headers/qabstractitemview.h \
-  /opt/homebrew/opt/qt/lib/QtCore.framework/Headers/qitemselectionmodel.h \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/DFBMS_autogen/WAYUIA5GRM/../../../src/UI/../client/ClientSimulator.h \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/DFBMS_autogen/WAYUIA5GRM/../../../src/UI/../client/Client.h \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/DFBMS_autogen/WAYUIA5GRM/../../../src/UI/../client/IClient.h \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/DFBMS_autogen/WAYUIA5GRM/../../../src/UI/../client/BackupRequest.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/put_character_sequence.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/DFBMS_autogen/WAYUIA5GRM/../../../src/UI/../core/backupmanager.h \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/DFBMS_autogen/WAYUIA5GRM/../../../src/UI/../core/../client/BackupRequest.h \
-  /Users/hashirali/Documents/Hashir/FileSystem/Distributed-File-Backup-Manager/build/DFBMS_autogen/WAYUIA5GRM/../../../src/UI/../core/Semaphore.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/condition_variable \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_callback.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_state.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_token.h
+  /opt/homebrew/opt/qt/lib/QtGui.framework/Headers/qguiapplication_platform.h
